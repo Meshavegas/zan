@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "398041518917",
+    "project_id": "zamisport-f6755",
+    "storage_bucket": "zamisport-f6755.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398041518917:android:134e2faa70cc94cdd5e42c",
+        "android_client_info": {
+          "package_name": "com.zamisportandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398041518917-s8jhmikr53t1kis0k7g3h1hqf2i01mua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEAjd8wJX55Iv0mYtEiN7B66jGuIoZBGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398041518917-s8jhmikr53t1kis0k7g3h1hqf2i01mua.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398041518917-satggqiejq7f7a2j5v3sqf91amturune.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "reactnativefirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

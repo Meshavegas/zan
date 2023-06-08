@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "zamisport",
+    "slug": "zamisport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Permetre $(PRODUCT_NAME) d'acceder a vos photos.",
+        "NSPhotoLibraryAddUsageDescription": "Permetre $(PRODUCT_NAME) Sauvegarder a vos photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ],
+      "package": "com.meshavegas.zamisport"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Permetre $(PRODUCT_NAME) d'acceder a vos photos.",
+          "savePhotosPermission": "Permetre $(PRODUCT_NAME) Sauvegarder a vos photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c0a0b2eb-6f8c-494f-8dca-d65b44a156a0"
+      }
+    }
+  }
+}
